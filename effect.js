@@ -1,0 +1,15 @@
+function genQuote() {
+  var randNum = Math.floor(Math.random() * 5) + 1;
+  document.getElementById('quote').innerHTML = quotes[randNum];
+}
+
+//quote array
+var quotes = ["Blank", "<b>Mål 3: Sundhed og trivsel</b><br><br>En delmålsætning i forhold til sundhed og trivsel er, at antallet af globale dødsfald og tilskadekomster som følge af trafikulykker skal halveres inden 2020 (verdensmaalene.dk, 2018).<br><br>Hvordan kan man sænke antallet af trafikulykker?","<b>Mål 4: Kvalitetsuddannelse</b><br><br>En af delmålsætningerne går under dette punkt ud på, at alle unge og en væsentlig del af alle voksne, både mænd og kvinder, skal have opnået færdigheder i at læse og regne inden 2030 (verdensmaalene.dk, 2018).<br><br>Hvordan kan man være med til at øge antallet af unge og/eller voksne, som kan læse og regne?", "<b>Mål 8: Anstændige jobs og økonomisk vækst</b><br><br>Mens den globale økonomi forsætter med at komme sig, ser vi en langsommere vækst, større uligheder og en beskæftigelsesrate, der ikke vokser hurtigt nok til at holde trit med den voksende arbejdsstyrke. Ifølge Den Internationale Arbejdsorganisation (ILO) var mere end 204 millioner mennesker arbejdsløse i 2015 (verdensmaalene.dk, 2018).<br><br>Hvordan kan man gøre det nemmere for arbejdsgiver og arbejdstager at finde det rigtige match?", "<b>Mål 12: Ansvarligt forbrug og produktion</b><br><br>En stor del af verdens befolkning forbruger alt for lidt til at opfylde deres grundlæggende behov. En halvering af det globale madspild per indbygger på forhandler- og forbrugerniveau er vigtigt for at skabe mere effektive produktionsmetoder og forsyningskæder. Det kan forbedre fødevaresikkerheden og skubbe os i retning af en mere ressourceeffektiv økonomi (verdensmaalene.dk, 2018).<br><br>Inden 2030 skal det globale madspild på detail- og forbrugerniveau pr. indbygger halveres (verdensmaalene.dk, 2018)<br><br>Hvordan kan man mindske den globale mængde af madspild?", "<b>Mål 14: Livet i havet</b><br><br>Verdenshavene - deres temperatur, kemi, strøm og liv – driver de globale systemer, som gør Jorden beboelig for mennesker. Håndteringen af denne livsvigtige ressource er afgørende for menneskeheden som helhed, men også for afbødningen af klimaforandringernes konsekvenser.<br><br>Havforurening, som hovedsageligt stammer fra landbaserede kilder, er ved at nå et alarmerende niveau. I gennemsnit er der 13.000 stykker plastikaffald på hver kvadratkilometer i havet (verdensmaalene.dk, 2018).<br><br>Inden 2025, skal alle former for havforurening forhindres og væsentligt reduceres, især forurening forårsaget af landbaserede aktiviteter, herunder havaffald og forurening med næringsstoffer (verdensmaalene.dk, 2018).<br><br>Hvordan kan man bidrage til at mindske forureningen i verdenshavene?"];
+
+function genCard() {
+  var randNum = Math.floor(Math.random() * 8) + 1;
+  document.getElementById('card').innerHTML = cards[randNum];
+}
+
+//quote array
+var cards = ["Blank", "Database", "Teknologi", "Hjemmeside", "App", "Spil", "Netværk", "Kunstig intelligens", "Virtual reality",];
